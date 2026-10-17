@@ -68,7 +68,9 @@ npm test
 
 ## Configuration
 
-Keep credentials in environment variables. Do not commit bot tokens, API keys, or other secrets to the repository.
+Create a local `.env` file for runtime settings. The bot requires `DISCORD_TOKEN`, `CLIENT_ID`, and `GUILD_ID`. Optional AI settings are `GEMINI_API_KEY` and `GEMINI_MODEL`; the default model is `gemini-3.8-flash`. The hosting integration reads `BOT_HOSTING_API_KEY`, and `VYNE_OWNER_ID` can identify the owner. Music uses Lavalink settings `LAVALINK_ID`, `LAVALINK_HOST`, `LAVALINK_PORT`, `LAVALINK_PASSWORD`, and `LAVALINK_SECURE`. Optional report routing uses `VYNE_SUPPORT_GUILD_ID` and `VYNE_SUPPORT_REPORT_CHANNEL_ID`. The tracked [.env.example](.env.example) currently demonstrates the Lavalink settings.
+
+Do not commit bot tokens, API keys, or other secrets.
 
 ## License
 
