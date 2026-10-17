@@ -1,5 +1,10 @@
 # Vyne Moderation
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=2600&pause=700&color=4C8DFF&center=true&vCenter=true&width=680&lines=Vyne+Moderation" alt="Animated header: Vyne Moderation">
+</p>
+
+
 Vyne is a Discord moderation and server-management bot built with discord.js v14. It combines moderation, security, automation, community tooling, music, and optional AI features in a single bot.
 
 ## Features
